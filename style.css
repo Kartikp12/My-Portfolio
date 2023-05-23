@@ -1,0 +1,170 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(207, 190, 190);
+}
+
+nav{
+    height: 10vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    
+}
+
+.logo{
+    height: 10vh;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+nav > a > button{
+    
+    background-color:orangered;
+    color: white;
+    border-radius: 20px;
+    height: 7vh;
+    width: 10vw;
+    cursor: pointer;
+}
+
+#contact-me > a{
+    text-decoration: none;
+    color: white;
+    
+    font-weight: 400;
+}
+
+.section-about{
+     text-align: center;
+     padding: 40px;
+}
+.section-about > h1{
+    font-size: 60px;
+}
+.section-about > p{
+    font-size: larger;
+    word-spacing: 3px;
+    letter-spacing: 1.5px;
+}
+
+.box1{
+    border: 3px solid black;
+    width: 35vw;
+    border-radius: 20px;
+    text-align: center;
+    height: 50vh;
+    line-height: 6vh;
+
+}
+.box2{
+    border: 2px solid black;
+    width: 35vw;
+    border-radius: 20px;
+    text-align: center;
+    height: 50vh;
+    line-height: 5.5vh;
+}
+
+.container{
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    
+}
+
+.cv-div{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.cv-button{
+    width: 14vw;
+    height: 11vh;
+    font-size: larger;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.foot-contact{
+    background-color: rgb(193, 193, 250);
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+@media(max-width: 800px){
+nav > a > button{
+    height: 40px;
+    width: 80px;
+}
+.logo{
+    height: 8vh;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.section-about > h1{
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1{
+    border: 3px solid black;
+    width: 70vw;
+    border-radius: 20px;
+    text-align: center;
+    height: 50vh;
+    line-height: 6vh;
+
+}
+.box2{
+    border: 2px solid black;
+    width: 70vw;
+    border-radius: 20px;
+    text-align: center;
+    height: 65vh;
+    line-height: 5.5vh;
+}
+
+.cv-button{
+    width: 35vw;
+    height: 11vh;
+    font-size: larger;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.foot-contact > a > img{
+    width: 30px;
+    height: 30px;
+}
+
+}
