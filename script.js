@@ -16,7 +16,7 @@ function Section(){
         <div className="section-about">
             <h1>Kartik Patil</h1>
             <p>👋 Hey! I am Kartik! <br/>
-            I am currently a second year undergrad pursuing Bachelor of             Technology in Computer Science from Pune University.</p>
+            I am currently a undergradute pursuing Bachelor of             Technology in Computer Science from Pune University.</p>
         </div>
 
         <div className="container">
